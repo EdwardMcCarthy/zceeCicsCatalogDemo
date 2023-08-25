@@ -21,7 +21,7 @@ components:
             targetPort: 9080
         env:
           - name: ZCON_DESIGNER_PROJECT
-            value: /projects/zcee-openapi3-cics-catalog/apiProject
+            value: /projects/zcee-openapi3-cics-catalog/CatalogManagerApi
         image: 'icr.io/zosconnect/ibm-zcon-designer:3.0.71'
         memoryLimit: 4927M
         mountSources: true
